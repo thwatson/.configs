@@ -1,0 +1,41 @@
+!.Xresources
+
+!Terminal options that apply to xterm, urxvt, and maybe others...
+
+!Colors
+
+*.foreground:   #01DF01
+*.background:   #000000 
+*.cursorColor:  #848484
+
+*.color0:       #000000
+*.color1:       #DF3A01
+*.color2:       #04B404
+*.color3:       #8A2908
+*.color4:       #0101DF
+*.color5:       #4B088A
+*.color6:       #0080FF
+*.color7:       #A4A4A4
+
+*.color8:       #848484
+*.color9:       #FE9A2E
+*.color10:      #9AFE2E
+*.color11:      #F4FA58
+*.color12:      #5882FA
+*.color13:      #BE81F7
+*.color14:      #A9F5E1
+*.color15:      #FFFFFF
+
+!Misc interface options
+!
+!Visual bell
+URxvt.visualBell:    on
+
+!rxvt-unicode specific options
+
+!Font
+
+!uxrvt font
+URxvt.font:          xft:monospace:pixelsize=14:antialias=false
+
+

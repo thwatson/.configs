@@ -1,0 +1,15 @@
+#----------GAME ENVIRONMENT----------
+OPTIONS=color,hilite_pet,lit_corridor,menucolors,DECgraphics
+OPTIONS=showexp,time
+OPTIONS=msg_window:f,sortloot=loot,disclose:+i+a+v+g+c
+#----------CUSTOM ENVIRONMENT----------
+OPTIONS=catname:Boogie,dogname:Pooper,horsename:Crusher
+OPTIONS:boulder:0,fruit:orange,pushweapon
+#----------CONTROLS----------
+OPTIONS=autodig,pickup_types:!?/="$,pickup_burden:unencumbered
+AUTOPICKUP_EXCEPTION="<*dagger"
+#----------MENU COLORS----------
+MENUCOLOR="[Cc]ursed"=orange&bold&underline
+MENUCOLOR="[Uu]ncursed"=yellow
+MENUCOLOR="[Bb]lessed"=lightgreen
+MENUCOLOR="-[0-9]"=orange
